@@ -1,10 +1,19 @@
-# Wheel Visualizer
+# Wheel Visualizer 🚗
 
-AI-powered car wheel swap prototype with Rails, Hotwire, and Turbo.
+**Rails + Hotwire + Turbo + AI wheel swaps**
 
-## Quick Start
+Rapid prototype for visualizing custom rims on your car.
 
-1. `rails new . --skip` if cloning
-2. Bundle, migrate, etc.
+## Features
+- Upload car photo
+- Swap wheels instantly with Turbo
+- AI-powered realistic compositing
 
-Built for rapid prototyping by Aaliyah James.
+Clone & run:
+```bash
+git clone https://github.com/epicsereno/wheel-visualizer.git
+cd wheel-visualizer
+bundle install
+rails db:create db:migrate
+rails s
+```
